@@ -1,4 +1,4 @@
-.body, body {
+.body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -257,7 +257,8 @@ thead {
 }
 
 @media screen and (max-width: 480px){
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+  
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
         width: auto;
     }
     .video {
@@ -273,4 +274,25 @@ thead {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .tabela {
+            margin: 0 auto 20px;
+        }
+        
+        .produtos li {
+            position: static;
+            display: block;
+            margin: 0;
+            width: 80%;
+            margin: 10% 10%;
+        
+        }
+        .produtos li img {
+            width: 70%;
+        }
 }
