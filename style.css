@@ -94,10 +94,7 @@ footer {
     margin-top: 20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+main {}
 
 main form {
     margin: 40px 0;
@@ -154,6 +151,13 @@ thead {
     width: 100%;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -182,11 +186,22 @@ thead {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888;
 }
 
 .conteudo-beneficios {
@@ -199,6 +214,7 @@ thead {
     display: inline-block;
     vertical-align: top;
 }
+
 .itens {
     line-height: 1.5em;
 }
@@ -206,6 +222,7 @@ thead {
 .itens:first-child {
     font-weight: bold;
 }
+
 .imagem-beneficios {
     width: 60%;
 }
