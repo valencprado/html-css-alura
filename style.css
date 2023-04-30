@@ -94,7 +94,7 @@ footer {
     margin-top: 20px;
 }
 
-main {}
+
 
 main form {
     margin: 40px 0;
@@ -165,6 +165,17 @@ thead {
     clear: left;
 }
 
+/* .titulo-principal::first-letter {
+    font-weight: bold;
+}
+.titulo-principal::before {
+    content: "[ ";
+}
+.titulo-principal::after {
+    content: "] ";
+
+} */
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -214,7 +225,9 @@ thead {
     display: inline-block;
     vertical-align: top;
 }
-
+.itens::before {
+    content: "★ ";
+}
 .itens {
     line-height: 1.5em;
 }
